@@ -6,14 +6,14 @@ export function Summary() {
     <SummaryContainer>
       <SummaryCard>
         <header>
-          <span>Entradas</span>
+          <span>Income</span>
           <ArrowCircleUp size={32} color="#00b37e" />
         </header>
         <strong>R$ 17.400,00</strong>
       </SummaryCard>
       <SummaryCard>
         <header>
-          <span>Saídas</span>
+          <span>Expenses</span>
           <ArrowCircleDown size={32} color="#f75a68" />
         </header>
         <strong>R$ 17.400,00</strong>
