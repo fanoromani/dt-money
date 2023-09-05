@@ -72,18 +72,18 @@ export const TransactionType = styled(RadioGroup.Root)`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  margin-top: 0%.5rem;
+  margin-top: 0.5rem;
 `;
 
 interface TransactionTypeButtonProps {
-  variant: "deposit" | "withdraw";
+  variant: "income" | "outcome";
 }
 
 export const TransactionTypeButton = styled(
   RadioGroup.Item
 )<TransactionTypeButtonProps>`
   background: ${(props) => props.theme["gray-700"]};
-  padding: 1.5rem;
+  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,7 +96,7 @@ export const TransactionTypeButton = styled(
 
   svg {
     color: ${(props) =>
-      props.variant === "deposit"
+      props.variant === "income"
         ? props.theme["green-300"]
         : props.theme["red-300"]};
   }
@@ -108,7 +108,7 @@ export const TransactionTypeButton = styled(
   &[data-state="checked"] {
     color: ${(props) => props.theme.white};
     background: ${(props) =>
-      props.variant === "deposit"
+      props.variant === "income"
         ? props.theme["green-500"]
         : props.theme["red-500"]};
 
