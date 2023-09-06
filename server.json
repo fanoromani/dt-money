@@ -15,6 +15,14 @@
       "category": "Food",
       "price": 50,
       "createdAt": "2022-08-19T19:36:34.545Z"
+    },
+    {
+      "id": 3,
+      "description": "PC",
+      "type": "outcome",
+      "category": "Purchase",
+      "price": 7500,
+      "createdAt": "2022-10-23T21:25:34.545Z"
     }
   ]
 }
