@@ -23,6 +23,22 @@
       "category": "Purchase",
       "price": 7500,
       "createdAt": "2022-10-23T21:25:34.545Z"
+    },
+    {
+      "description": "combve",
+      "category": "safadeza",
+      "price": 5000,
+      "type": "outcome",
+      "createdAt": "2023-09-18T16:35:18.641Z",
+      "id": 4
+    },
+    {
+      "description": "app",
+      "category": "dev",
+      "price": 2500,
+      "type": "income",
+      "createdAt": "2023-09-18T16:54:21.556Z",
+      "id": 5
     }
   ]
 }
